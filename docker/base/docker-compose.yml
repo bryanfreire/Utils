@@ -9,6 +9,8 @@ services:
 
     command: tail -f /dev/null
 
+    user: bfreire
+
     volumes:
       - ..:/workspace
       - ~/.ssh:/root/.ssh:ro
