@@ -10,3 +10,7 @@ RUN apt update -yqq \
     && wget $EXERCISM_URL \
     && tar zxf $EXERCISM_FILE \
     && mv exercism /bin/
+
+FROM ubuntu
+
+COPY --from=exercism /bin/exercism /bin/
