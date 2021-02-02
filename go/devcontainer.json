@@ -6,7 +6,6 @@
 	"workspaceFolder": "/workspace",
 
 	"extensions": [
-		"patbenatar.advanced-new-file",
 		"golang.go"
 	]
 }

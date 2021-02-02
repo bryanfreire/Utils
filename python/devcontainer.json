@@ -7,7 +7,6 @@
 	"workspaceFolder": "/workspace",
 
 	"extensions": [
-		"patbenatar.advanced-new-file",
 		"ms-python.python",
 		"batisteo.vscode-django",
 		"hlrossato.vscode-drf"

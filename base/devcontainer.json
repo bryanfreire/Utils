@@ -3,5 +3,7 @@
 
 	"service": "workspace",
 
-	"workspaceFolder": "/workspace"
+	"workspaceFolder": "/workspace",
+
+	"extensions": []
 }
