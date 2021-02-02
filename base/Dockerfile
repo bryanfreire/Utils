@@ -11,4 +11,4 @@ RUN groupadd -g $GID $USER \
 
 WORKDIR /workspace
 
-USER bfreire
+USER $USER
