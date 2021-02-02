@@ -10,3 +10,5 @@ RUN groupadd -g $GID $USER \
     && chown $UID:$GID -R /workspace
 
 WORKDIR /workspace
+
+USER bfreire
