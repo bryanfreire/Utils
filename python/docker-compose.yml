@@ -1,0 +1,16 @@
+version: '3.7'
+
+services:
+
+  workspace:
+
+    build:
+      context: .
+
+    command: tail -f /dev/null
+
+    network_mode: host
+
+    volumes:
+      - ../../:/workspace
+      - ~/.ssh/:/root/.ssh:ro
