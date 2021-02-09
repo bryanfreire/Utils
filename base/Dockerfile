@@ -9,6 +9,10 @@ RUN groupadd -g $GID $USER \
     && mkdir /workspace \
     && chown $UID:$GID -R /workspace
 
+    && apt update -yqq \
+    && apt install -yqq git-flow \
+    && rm -rf /var/lib/apt/lists/*
+
 WORKDIR /workspace
 
 USER $USER
